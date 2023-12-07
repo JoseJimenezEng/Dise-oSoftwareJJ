@@ -4,3 +4,22 @@ body{
     box-sizing: border-box;
     background-color: aqua;
 }
+
+.navbar-nav .nav-item :hover{
+    cursor: pointer;
+}
+
+.navbar{
+    position: fixed;
+    background-color: rgb(0, 0, 0,0.025)
+}
+
+#navbar{
+    margin-top: 20px;
+    
+    position: fixed;
+    z-index: 1000;
+}
+.noshow{
+    display: none;
+}
